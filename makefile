@@ -1,11 +1,11 @@
-all: Readme.md clean
+all: README.md clean
 
 Readme.md: #fileprogram
-touch Readme.md
-echo "The Project Guessing Game \n" >Readme.md
-echo "Last ran on : $$(date) \n" >>Readme.md
+touch README.md
+echo "The Project Guessing Game \n" >README.md
+echo "Last ran on : $$(date) \n" >>README.md
 echo "Number of lines(Actual code): $$(grep -vc || TheProjectguessinggame.sh)"\
->> Readme.md
+>> README.md
 
 clean:
-rm Readme.md
+rm README.md
