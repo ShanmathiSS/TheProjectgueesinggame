@@ -1,6 +1,6 @@
 all: README.md clean
 
-Readme.md: #fileprogram
+README.md: #fileprogram
 touch README.md
 echo "The Project Guessing Game \n" >README.md
 echo "Last ran on : $$(date) \n" >>README.md
